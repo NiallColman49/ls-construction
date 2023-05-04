@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(//db.onlinewebfonts.com/c/6ba2a98d40a2a953a24fcf1b0f3f55db?family=Maax+Light);
+@import url(//db.onlinewebfonts.com/c/148fbec18900e43c3d7091d613ea227c?family=Maax+Medium);
+@import url(//db.onlinewebfonts.com/c/30c7b0ba24b3056fd3b4d95abf785da0?family=Maax);
+@import url(//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular);
+@import url(//db.onlinewebfonts.com/c/a9119a625b812f862b623442195661ff?family=Programme+Light);
+@import url(//db.onlinewebfonts.com/c/a4084c1b8de1174e1b0ba7dcaf5f0b02?family=Programme+Bold);
+@import url(//db.onlinewebfonts.com/c/615ebd2bd72c443cdfe3991532f0df4f?family=Programme+Regular);
+
+@font-face {
+    font-family: "Copyright Klim Type Foundry";
+    src: url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot");
+    src: url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.svg#Copyright Klim Type Foundry")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot");
+    src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Maax Medium";
+    src: url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.eot");
+    src: url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/148fbec18900e43c3d7091d613ea227c.svg#Maax Medium")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Programme Light";
+    src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot");
+    src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.svg#Programme Light")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Programme Bold";
+    src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot");
+    src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.svg#Programme Bold")
+            format("svg");
+}
+
+@font-face {
+    font-family: "Programme Regular";
+    src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot");
+    src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot?#iefix")
+            format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff2")
+            format("woff2"),
+        url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff")
+            format("woff"),
+        url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.ttf")
+            format("truetype"),
+        url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular")
+            format("svg");
+}

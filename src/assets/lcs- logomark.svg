@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578.13 230.13"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M83.76,157.81H50.57V106.3h8.76v43.56H83.76Z"/><path class="cls-1" d="M299.17,78l5.52,6q-7.72,9.72-20.53,9.71-11.7,0-19.32-7.39t-7.62-19.1q0-11.92,7.55-19.31t19.09-7.4q13,0,20.09,9.71l-5.66,5.89A16.59,16.59,0,0,0,284,48.58a16.9,16.9,0,0,0-12.73,5.3,18.56,18.56,0,0,0-5.08,13.39,18.14,18.14,0,0,0,5.15,13.21,17.37,17.37,0,0,0,12.95,5.26Q293.36,85.74,299.17,78Z"/><path class="cls-1" d="M514.17,167.43l-6.25-1q-7.14-1.17-11.11-5.11a13.63,13.63,0,0,1-4-10.12,12.86,12.86,0,0,1,5.3-10.74,20.59,20.59,0,0,1,12.88-4,25.26,25.26,0,0,1,19.06,8.24L524,151.09q-5.6-6.76-13.32-6.77-4.41,0-6.7,2a6,6,0,0,0-2.28,4.63q0,5.52,8.17,6.92l5.15.88q16.13,2.81,16.12,15.75a13.27,13.27,0,0,1-5.3,10.89q-5.29,4.2-14.42,4.19a24.88,24.88,0,0,1-20.53-9.86l6-6a22.17,22.17,0,0,0,6.43,5.81,18,18,0,0,0,9.24,2.14q4.71,0,7.25-1.95a6.08,6.08,0,0,0,2.54-5Q522.27,168.82,514.17,167.43Z"/><path class="cls-1" d="M67.16,186.51a54.46,54.46,0,1,1,54.46-54.46A54.52,54.52,0,0,1,67.16,186.51ZM67.16,81a51,51,0,1,0,51,51A51.08,51.08,0,0,0,67.16,81Z"/><path class="cls-1" d="M67.16,199.21a67.16,67.16,0,1,1,67.16-67.16A67.24,67.24,0,0,1,67.16,199.21Zm0-130.89a63.73,63.73,0,1,0,63.73,63.73A63.8,63.8,0,0,0,67.16,68.32Z"/><path class="cls-1" d="M511,217.43A54.46,54.46,0,1,1,565.43,163,54.52,54.52,0,0,1,511,217.43ZM511,112a51,51,0,1,0,51,51A51.08,51.08,0,0,0,511,112Z"/><path class="cls-1" d="M511,230.13A67.16,67.16,0,1,1,578.13,163,67.24,67.24,0,0,1,511,230.13Zm0-130.88A63.73,63.73,0,1,0,574.7,163,63.79,63.79,0,0,0,511,99.25Z"/><path class="cls-1" d="M281,121.62a54.46,54.46,0,1,1,54.45-54.46A54.52,54.52,0,0,1,281,121.62Zm0-105.48a51,51,0,1,0,51,51A51.08,51.08,0,0,0,281,16.14Z"/><path class="cls-1" d="M281,134.32a67.16,67.16,0,1,1,67.16-67.16A67.24,67.24,0,0,1,281,134.32ZM281,3.43a63.73,63.73,0,1,0,63.72,63.73A63.8,63.8,0,0,0,281,3.43Z"/><rect class="cls-1" x="121.42" y="97.89" width="105.28" height="3.43" transform="translate(-24.41 128.37) rotate(-38.03)"/><polygon class="cls-1" points="444.28 164.15 345.15 68.34 347.65 65.98 446.78 161.8 444.28 164.15"/></g></g><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
