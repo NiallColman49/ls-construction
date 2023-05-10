@@ -99,3 +99,8 @@
         url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular")
             format("svg");
 }
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}

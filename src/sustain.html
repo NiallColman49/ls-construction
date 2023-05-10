@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Laser Construction</title>
+        <link href="/dist/output.css" rel="stylesheet" />
+        <!-- import slick carousel -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+    <body onload="setDate()">
+        <!-- Menu -->
+        <section class="relative z-10 border-b border-laser-blue">
+            <div class="container">
+                <div
+                    class="flex justify-between items-center font-mono text-laser-blue py-10"
+                >
+                    <!-- Logo -->
+                    <a href="./index.html">
+                        <img
+                            src="./assets/laser-construction-blue-logo.svg"
+                            alt="Laser construction blue logo"
+                            class="w-60 sm:w-80"
+                        />
+                    </a>
+
+                    <!-- Date -->
+                    <div class="hidden sm:block js-current-date"></div>
+
+                    <!-- Menu toggle -->
+                    <div class="js-menu-toggle relative">
+                        <span onclick="toggleMenu()" class="cursor-pointer"
+                            >Menu</span
+                        >
+                        <ul
+                            class="js-menu hidden absolute right-0 bg-white px-6"
+                        >
+                            <li class="py-2 border-b border-laser-blue">
+                                <a href="./about.html" class="pl-2 pr-6"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="py-2 border-b border-laser-blue">
+                                <a href="./sectors.html" class="pl-2 pr-6"
+                                    >Sectors</a
+                                >
+                            </li>
+                            <li class="py-2 border-b border-laser-blue">
+                                <a href="./sustain.html" class="pl-2 pr-6"
+                                    >Sustain</a
+                                >
+                            </li>
+                            <li class="py-2">
+                                <a href="./contact.html" class="pl-2 pr-6"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustain hero text -->
+        <section class="bg-white border-b border-laser-blue">
+            <div class="container py-20 md:py-40">
+                <h3
+                    class="font-decor text-2xl md:text-4xl text-laser-light-grey text-center w-full md:w-3/4 md:mx-auto"
+                >
+                    <span class="font-medium text-laser-blue"
+                        >Laser Construction</span
+                    >
+                    is committed to doing all we can to support and promote good
+                    quality service.
+                </h3>
+            </div>
+        </section>
+
+        <!-- Sustain full image-->
+        <section class="border-b border-laser-blue">
+            <div class="container">
+                <div class="flex justify-center items-center py-10">
+                    <img
+                        src="./assets/sustain-hero.jpeg"
+                        alt="Drone image with lcs logo"
+                        class="w-full h-full"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability values -->
+        <section class="border-b border-laser-blue">
+            <div class="container">
+                <div class="flex flex-wrap py-10">
+                    <div
+                        class="flex flex-wrap border-b border-laser-blue pb-10"
+                    >
+                        <div
+                            class="w-full md:w-1/2 text-laser-blue text-2xl md:text-3xl font-primaryTitle"
+                        >
+                            01 <span class="pl-10">Hire services</span>
+                        </div>
+                        <div
+                            class="w-full md:w-1/2 text-laser-light-grey font-primary pt-5 md:pt-0 md:text-xl"
+                        >
+                            When clients told us they struggle to find
+                            equipment, we responded by setting up a plant hire
+                            division of our own. It makes perfect sense for
+                            everyone, because it's one more way of streamlining
+                            projects and shrinking their costs. Today, we use
+                            our contacts and negotiation skills to source and
+                            supply equipment on demand, providing any item a
+                            client asks for. And when we say any, we mean any:
+                            from extension leads and air-con units to 4-tonne
+                            dumper trucks, or even hard-to-find gear like
+                            specialist technology for underground surveys.
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-wrap py-10 border-b border-laser-blue"
+                    >
+                        <div
+                            class="w-full md:w-1/2 text-laser-blue text-2xl md:text-3xl font-primaryTitle"
+                        >
+                            02 <span class="pl-10">Training & Development</span>
+                        </div>
+                        <div
+                            class="w-full md:w-1/2 text-laser-light-grey font-primary pt-5 md:pt-0 md:text-xl"
+                        >
+                            With so much expertise at our disposal, it seemed a
+                            shame not to share it. Our Construction Training and
+                            Development service does exactly that. We provide
+                            accredited instructors who'll train and qualify your
+                            people in everything from first aid and health &
+                            safety through to project management, conflict
+                            management and high-risk specialisms like
+                            infrastructure. <br /><br />Our resources can handle
+                            any number of individuals at any UK venue too,
+                            including out on site, at our own training facility
+                            here in Lancashire, or even online.
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap pt-10">
+                        <div
+                            class="w-full md:w-1/2 text-laser-blue text-2xl md:text-3xl font-primaryTitle"
+                        >
+                            03 <span class="pl-10">Traffic Management</span>
+                        </div>
+                        <div
+                            class="w-full md:w-1/2 text-laser-light-grey font-primary pt-5 md:pt-0 md:text-xl"
+                        >
+                            By looking at the bigger picture and understanding
+                            the real-world challenges faced by developers and
+                            engineers, we spotted a chance to make life simpler
+                            for us all. Our dedicated Traffic Management service
+                            is a vital additional resource, enabling us to
+                            handle any issues around access and traffic on your
+                            behalf. <br /><br />Whether we're supplying cones
+                            and temporary lights or completing official
+                            paperwork to close a motorway - this service
+                            literally gives your project the green light.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accreditations carousel -->
+        <section class="border-b border-laser-blue">
+            <div class="container py-20 md:py-40">
+                <div class="js-accreditations-carousel">
+                    <div class="px-5 md:px-10">
+                        <img
+                            src="./assets/accreditations/construction-line.svg"
+                            alt="construction line logo"
+                        />
+                    </div>
+                    <div class="px-5 md:px-10">
+                        <img
+                            src="./assets/accreditations/fsb.svg"
+                            alt="fsb logo"
+                        />
+                    </div>
+                    <div class="px-5 md:px-10">
+                        <img
+                            src="./assets/accreditations/chas.svg"
+                            alt="chas logo"
+                        />
+                    </div>
+                    <div class="px-5 md:px-10">
+                        <img
+                            src="./assets/accreditations/citb.svg"
+                            alt="citb logo"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Socials text -->
+        <section class="bg-white border-b border-laser-blue">
+            <div class="container py-20 md:py-40">
+                <h3
+                    class="font-decor text-2xl md:text-4xl text-laser-light-grey text-center w-full md:w-3/4 md:mx-auto"
+                >
+                    Check out all our latest news by following
+                    <span class="font-medium text-laser-blue"
+                        >Laser Construction</span
+                    >
+                    on all our socials.
+                </h3>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="bg-white">
+            <div class="container py-10">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-3/4 flex">
+                        <!-- Flipped wordmark -->
+                        <div class="w-1/3">
+                            <img
+                                src="./assets/laser-wordmark-rotated.svg"
+                                alt="Laser wordmark rotated"
+                                class="w-3 h-auto"
+                            />
+                        </div>
+                        <div class="flex flex-col w-1/3 pr-5">
+                            <span class="font-primaryTitle text-laser-blue"
+                                >Address</span
+                            >
+                            <span
+                                class="font-mono text-laser-light-grey text-sm"
+                                >Office 5, Embsay Mills, Embsay, Skipton, BD23
+                                6QR</span
+                            >
+                        </div>
+                        <div class="w-1/3 flex flex-col pr-5">
+                            <span class="font-primaryTitle text-laser-blue"
+                                >Telephone
+                            </span>
+                            <span
+                                class="font-mono text-laser-light-grey text-sm"
+                                >+44 (0) 1756 709 018
+                            </span>
+                            <span class="font-primaryTitle text-laser-blue pt-5"
+                                >Email Address
+                            </span>
+                            <span
+                                class="font-mono text-laser-light-grey text-sm"
+                                >hello@lasercs.co.uk</span
+                            >
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4">
+                        <span class="font-primaryTitle text-laser-blue"
+                            >Check out our socials</span
+                        >
+                        <span
+                            class="font-primaryTitle text-laser-blue block mt-10"
+                            >Facebook <span class="text-xl">&#8599;</span></span
+                        >
+                    </div>
+                </div>
+                <div class="pt-10 flex justify-end">
+                    <img
+                        src="./assets/lsc-logomark-blue.svg"
+                        alt="Lcs logomark blue"
+                        class="w-40"
+                    />
+                </div>
+            </div>
+        </section>
+        <!-- Get current date -->
+        <script src="./js/GetCurrentDate.js"></script>
+        <!-- Toggle menu -->
+        <script src="./js/ToggleMenu.js"></script>
+        <!-- Import jquery -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+            crossorigin="anonymous"
+        ></script>
+        <!-- Accreditations carousel -->
+        <script src="./js/AccreditationsCarousel.js"></script>
+        <!-- Slick carousel   -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </body>
+</html>
